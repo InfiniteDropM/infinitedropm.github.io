@@ -41,12 +41,16 @@ h1.cs:hover {
 -webkit-transform: scale(1.0f5,1.05);
     -ms-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
+    color : #2980BA;
+    color : rgb(41, 128, 186);
 }
 
 span.peroid:hover {
 -webkit-transform: scale(1.0f5,1.05);
     -ms-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
+    color : #E64C3C;
+    color : rgb(230, 76, 60);
 }
 
 
