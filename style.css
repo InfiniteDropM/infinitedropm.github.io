@@ -160,4 +160,5 @@ h1.cltm:hover {
     -webkit-transform: scale(1.0f5,1.05);
     -ms-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
+    color : #2980BA
 }
