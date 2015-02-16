@@ -11,7 +11,7 @@ body {
 h1.cs {
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 52%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size : 41px;
@@ -40,6 +40,45 @@ h1.cs:hover {
 }
 
 span.peroid:hover {
+-webkit-transform: scale(1.0f5,1.05);
+    -ms-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
+
+
+/*Coming Soon*/
+
+h1.idm {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 41px;
+    color : #2980BA;
+    color : rgb(41, 128, 186);
+    overflow: hidden;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+span.peroididm {
+    color : #E64C3C;
+    color : rgb(230, 76, 60); 
+    text-align: center;
+    top: 50%;
+    overflow: hidden;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+h1.idm:hover {
+-webkit-transform: scale(1.0f5,1.05);
+    -ms-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
+
+span.peroididm:hover {
 -webkit-transform: scale(1.0f5,1.05);
     -ms-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
