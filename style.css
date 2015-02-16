@@ -1,0 +1,46 @@
+/*Body*/
+
+body {
+  background : #2C3E50;
+  background : rgba(44, 62, 80, 1);
+}
+
+
+/*Coming Soon*/
+
+h1.cs {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 41px;
+    color : #2980BA;
+    color : rgb(41, 128, 186);
+    overflow: hidden;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+span.peroid {
+    color : #E64C3C;
+    color : rgb(230, 76, 60); 
+    text-align: center;
+    top: 50%;
+    overflow: hidden;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+
+h1.cs:hover {
+-webkit-transform: scale(1.0f5,1.05);
+    -ms-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
+
+span.peroid:hover {
+-webkit-transform: scale(1.0f5,1.05);
+    -ms-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
