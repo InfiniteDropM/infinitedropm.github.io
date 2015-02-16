@@ -20,6 +20,8 @@ h1.cs {
     overflow: hidden;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
+    color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 span.peroid {
@@ -30,6 +32,8 @@ span.peroid {
     overflow: hidden;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
+    color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 
@@ -133,3 +137,23 @@ span.peroididm:hover {
  border-width: 1em 1em 0 0;
 }
 
+
+/*Coming Later This Month (.cltm)*/
+h1.cltm {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    width: 100%;
+    font-family: 'Droid Sans', sans-serif;
+    color : #D3D3D3;
+    font-size: 20px;
+    overflow: hidden;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+h1.cltm:hover {
+    -webkit-transform: scale(1.0f5,1.05);
+    -ms-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
