@@ -68,6 +68,7 @@ h1.idm {
     overflow: hidden;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 span.peroididm {
@@ -162,5 +163,7 @@ h1.cltm:hover {
     -webkit-transform: scale(1.0f5,1.05);
     -ms-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
     color : #2980BA
+
 }
